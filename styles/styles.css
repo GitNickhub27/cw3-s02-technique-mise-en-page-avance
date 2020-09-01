@@ -21,8 +21,7 @@
 
 body {
     font-family: var(--fontPrimaire);
-font-size: 36px;
-
+font-size: 66px;
 }
 
 h1,h2{
@@ -30,23 +29,26 @@ h1,h2{
     color:var(--couleur-texte-hero);
 }
 h2{
-  font-size: 160px;
+  font-size: 360px;
+padding-bottom: 0;
+    margin-bottom:0 ;
+height:40% ;
 }
 h1{
-
    width:100vw;
    margin-top:0;
     padding-top: 0;
     padding-left: 149px;
- font-size:49px;
+    font-size:109px;
     position: fixed;
 top:0;
     left:0;
     z-index: 999;
 }
 h3{
-font-size: 80px;
-
+font-size: 180px;
+padding-bottom: 0;
+   margin-bottom: 0;
 }
 h4{
    text-align: center;
@@ -56,13 +58,13 @@ h4{
 
 .hero .content p{
     color:var(--couleur-texte-hero);
-    font-size:35px;
+    font-size:65px;
 
 }
 .hero .content a{
    text-decoration:none;
     color:var(--couleur-texte-hero);
-font-size:35px;
+font-size:65px;
 }
 
  a:hover{
@@ -80,7 +82,7 @@ font-size:35px;
 .interet{
     background-image:url(../images/bg-interet.jpg);
     background-size:cover;
-
+padding-bottom:218px;
 }
 .interet .conteneur{
    text-align: center;
@@ -88,7 +90,13 @@ font-size:35px;
     margin: 0 151px;
 }
 
-.hero {
+
+.hero p a{
+margin-top:10px;
+   font-size: 36px;
+}
+
+.hero  {
 height:80vh;
 background-color:black;
 position: relative;
@@ -125,32 +133,37 @@ top:0;
 
 /*---------------------- Components ----------------------*/
 .citation{
-    color:white;
+    display: flex;
+    justify-content: center;
+    color:var(--couleur-texte-hero);
     text-transform: uppercase;
     background-image:url(../images/bg-citation.jpg);
     background-size: cover;
     background-position:center;
+    margin-left:150 ;
     padding-top: 100px;
-    padding-right: 317px;
-    padding-left: 150px;
+    padding-right: 217px;
+    padding-left: 250px;
     padding-bottom: 142px;
 }
 .citation .conteneur {
 width:80vw;
 padding-top: 202px;
 padding-bottom:202px;
+
 }
 
 .cartes{
     display:flex;
     justify-content: space-between;
     flex-wrap:wrap;
+
 }
 .carte{
    width:30%;
-    background: white;
+    background: var(--couleur-texte-hero);
     margin-top: 90px;
-
+    box-shadow: 0 0 50px grey;
 display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,8 +179,22 @@ img{
     padding-bottom: 42px;
 }
 .citation h3{
- width:90%
+  font-size:123px;
+ width:90%;
 }
-
+.footer-principal{
+   padding-top:72px;
+   padding-bottom:72px ;
+    background-color: black;
+color: var(--couleur-texte-hero);
+   text-align: center;
+}
+.footer-principal a{
+ color: var(--couleur-texte-hero);
+  text-decoration: none;
+}
+.footer-principal a:hover{
+  color:var(--couleur-hero);
+}
 /*---------------------- Utilities ----------------------*/
 
