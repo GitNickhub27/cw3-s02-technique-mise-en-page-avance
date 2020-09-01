@@ -4,25 +4,164 @@
 /* font-family: 'Bungee Shade', cursive; */
 
 /* LES VARIABLES CSS ICI */
-
+:root{
+ --fontPrimaire:'Cardo', serif;
+        --fontSecondaire:'Bungee Shade', cursive;
+    --couleur-hero:#A7029A;
+    --couleur-texte-hero:#FFFFFF;
+    --degrade-principal:linear-gradient(36deg, rgba(167, 2, 154, 0.7)  0%, rgba(167, 2, 154, 0) 100%);
+}
 /*---------------------- Generic ----------------------*/
 
 /* Mettre la ligne universelle pour le box-sizing */
 
+*, *::before, *::after{
+    box-sizing: border-box;
+}
 
+body {
+    font-family: var(--fontPrimaire);
+font-size: 36px;
+
+}
+
+h1,h2{
+  font-family: var(--fontSecondaire);
+    color:var(--couleur-texte-hero);
+}
+h2{
+  font-size: 160px;
+}
+h1{
+
+   width:100vw;
+   margin-top:0;
+    padding-top: 0;
+    padding-left: 149px;
+ font-size:49px;
+    position: fixed;
+top:0;
+    left:0;
+    z-index: 999;
+}
+h3{
+font-size: 80px;
+
+}
+h4{
+   text-align: center;
+    text-transform: uppercase;
+   margin-top:30px;
+}
+
+.hero .content p{
+    color:var(--couleur-texte-hero);
+    font-size:35px;
+
+}
+.hero .content a{
+   text-decoration:none;
+    color:var(--couleur-texte-hero);
+font-size:35px;
+}
+
+ a:hover{
+     color: var(--couleur-hero);
+ }
+.hero .content a:hover{
+    color:var(--couleur-hero);
+}
 
 /*---------------------- Elements ----------------------*/
+.header-principal  h1{
+ background-color: black;
+  margin:0;
+}
+.interet{
+    background-image:url(../images/bg-interet.jpg);
+    background-size:cover;
 
+}
+.interet .conteneur{
+   text-align: center;
+   padding-bottom:30px;
+    margin: 0 151px;
+}
 
+.hero {
+height:80vh;
+background-color:black;
+position: relative;
+}
+.hero video{
+   width:100%;
+  height:100%;
+    object-fit: cover;
 
+}
+.hero .content{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    background:var(--degrade-principal);
+ position: absolute;
+top:0;
+    left:0;
+ z-index: 2;
+
+}
+.hero::after{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
 
 
 /*---------------------- Components ----------------------*/
+.citation{
+    color:white;
+    background-image:url(../images/bg-citation.jpg);
+    background-size: cover;
+    background-position:center;
+    margin: 0;
+    padding: 0;
+}
+.citation .conteneur {
+width:100vw;
+padding-top: 202px;
+padding-bottom:202px;
+}
 
+.cartes{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.carte{
+   width:30%;
+    background: white;
+    margin-top: 90px;
 
-
-
-
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+  width:30%;
+  margin:0 auto;
+}
+.carte p{
+    text-align: center;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 42px;
+}
 
 /*---------------------- Utilities ----------------------*/
 
