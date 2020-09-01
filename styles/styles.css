@@ -126,14 +126,17 @@ top:0;
 /*---------------------- Components ----------------------*/
 .citation{
     color:white;
+    text-transform: uppercase;
     background-image:url(../images/bg-citation.jpg);
     background-size: cover;
     background-position:center;
-    margin: 0;
-    padding: 0;
+    padding-top: 100px;
+    padding-right: 317px;
+    padding-left: 150px;
+    padding-bottom: 142px;
 }
 .citation .conteneur {
-width:100vw;
+width:80vw;
 padding-top: 202px;
 padding-bottom:202px;
 }
@@ -161,6 +164,9 @@ img{
     padding-right: 18px;
     padding-left: 18px;
     padding-bottom: 42px;
+}
+.citation h3{
+ width:90%
 }
 
 /*---------------------- Utilities ----------------------*/
