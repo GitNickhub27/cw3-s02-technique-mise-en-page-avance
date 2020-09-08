@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9918af7-5259-4ffd-a8ee-a179ec13ee4c" name="Default Changelist" comment="interface terminé" />
+    <list default="true" id="b9918af7-5259-4ffd-a8ee-a179ec13ee4c" name="Default Changelist" comment="interface terminé">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +38,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nickolas Laforest\Desktop\cw3-s02-technique-mise-en-page-avance\Js\bootstrap" />
+      <recent name="C:\Users\Nickolas Laforest\Desktop\cw3-s02-technique-mise-en-page-avance\Js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/cw3-s02-technique-mise-en-page-avance/index.html" useBuiltInWebServerPort="true">
@@ -57,7 +67,10 @@
       <option name="presentableId" value="Default" />
       <updated>1598967477874</updated>
       <workItem from="1598967479100" duration="10960000" />
-      <workItem from="1598981766530" duration="10208000" />
+      <workItem from="1598981766530" duration="10221000" />
+      <workItem from="1598992252905" duration="1424000" />
+      <workItem from="1599147055304" duration="2592000" />
+      <workItem from="1599229541613" duration="519000" />
     </task>
     <task id="LOCAL-00001" summary="Interface presque terminé, reste seulement citation et footer.">
       <created>1598988062098</created>
@@ -80,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598992020940</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="interface terminé">
+      <created>1598992037600</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598992037600</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +116,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Interface presque terminé, reste seulement citation et footer." />
