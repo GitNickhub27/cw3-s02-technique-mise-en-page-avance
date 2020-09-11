@@ -21,7 +21,7 @@
 
 body {
     font-family: var(--fontPrimaire);
-font-size: 66px;
+font-size: 36px;
 }
 
 h1,h2{
@@ -80,14 +80,24 @@ font-size:65px;
   margin:0;
 }
 .interet{
+
+background-attachment:fixed;
     background-image:url(../images/bg-interet.jpg);
     background-size:cover;
-padding-bottom:218px;
+
+    padding-top: 244px;
+    padding-right:145px;
+    padding-left:149px;
+    padding-bottom:218px
+
 }
 .interet .conteneur{
    text-align: center;
-   padding-bottom:30px;
+   padding-bottom:80px;
     margin: 0 151px;
+
+
+
 }
 
 
@@ -133,6 +143,8 @@ top:0;
 
 /*---------------------- Components ----------------------*/
 .citation{
+background-attachment: fixed;
+
     display: flex;
     justify-content: center;
     color:var(--couleur-texte-hero);
@@ -140,13 +152,14 @@ top:0;
     background-image:url(../images/bg-citation.jpg);
     background-size: cover;
     background-position:center;
-    margin-left:150 ;
+
     padding-top: 100px;
     padding-right: 217px;
     padding-left: 250px;
     padding-bottom: 142px;
 }
 .citation .conteneur {
+
 width:80vw;
 padding-top: 202px;
 padding-bottom:202px;
